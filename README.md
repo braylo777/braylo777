@@ -9,6 +9,9 @@ AI engineer: evals, RAG, and agents with human approval. Founder of [Braylo SI](
 | **Governing-Docs Copilot** | Next.js App Router + Postgres row-level security multi-tenancy, pgvector hybrid retrieval, cited answers. 25 tests (Vitest, Playwright) incl. cross-tenant isolation. | [repo](https://github.com/braylo777/governing-docs-copilot) · [live](https://governing-docs-copilot.braylo777.workers.dev) |
 | **Capacity Reservation & Matching Engine** | GPU-hour market with price-time matching, escrow and a double-entry ledger; 5 fast-check properties x 300 random markets (books balance, no overselling). | [repo](https://github.com/braylo777/capacity-matching-engine) · [live](https://capacity-matching-engine.braylo777.workers.dev) |
 | **GPU Cluster Home Lab** *(simulated)* | Rust node agent (health, drain, Prometheus), K8s + Slurm configs, backfill sim: drain cut killed jobs 3,676 → 2 on a silent node failure. | [repo](https://github.com/braylo777/gpu-cluster-lab) · [live](https://gpu-cluster-lab.braylo777.workers.dev) |
+| **Video-to-Data API** | Transcript (VTT/SRT) → chapters, entities, action items with owners; API + TS SDK. Holdout chapter F1 0.68 vs 0.24 naive (synthetic). | [repo](https://github.com/braylo777/video-to-data-api) · [live](https://video-to-data-api.braylo777.workers.dev) |
+| **Wealth-Ops Agent** *(synthetic data)* | Finds reconciliation breaks, proposes fixes, human approval gate + audit log. 550/550 planted breaks found across 50 seeds. | [repo](https://github.com/braylo777/wealth-ops-agent) · [live](https://wealth-ops-agent.braylo777.workers.dev) |
+| **RAG Assistant, Azure-ready** | Bicep + Terraform (managed identity) + deploy guide; runs locally/Cloudflare. No Azure account connected. | [repo](https://github.com/braylo777/rag-assistant-azure) · [live](https://rag-assistant-azure.braylo777.workers.dev) |
 | **Compute Price Index** | Live $/GPU-hour index for 11 SKUs from vast.ai + RunPod quotes, MAD outlier rules, forward curve, own-vs-rent TCO, Postgres schema. 21 tests. | [repo](https://github.com/braylo777/compute-price-index) · [live](https://compute-price-index.braylo777.workers.dev) |
 | **Eval Regression Lab** | 100 hand-labelled items, 4 ablations on the Copilot (hybrid 89% vs 80-87%), judge κ 0.95, CI gate that fails on regression. 15 tests. | [repo](https://github.com/braylo777/eval-regression-lab) · [live](https://eval-regression-lab.braylo777.workers.dev) |
 | **Braylo SI RAG Assistant** | Hybrid retrieval, guards and traces on Workers AI. hit@5 0.958, 29/30 attacks blocked. | [repo](https://github.com/braylo777/braylo-si-rag) |
@@ -21,6 +24,6 @@ Plus 20 ML/AI projects (`agent-01` … `agent-19`), each with tests and a live W
 
 ## Building next
 
-Video-to-Data API (SDK + playground) · Wealth-Ops Agent with reconciliation · Azure-ready port of the RAG assistant.
+Copilot refusal fix (topic-gap check, eval-gated) · next project proposals.
 
 **Stack:** Python, TypeScript, React/Next.js, Postgres, Cloudflare Workers, Rust/Anchor.

@@ -7,7 +7,7 @@
 | **Bagz**: ATS-compatible, swipe-to-apply job app | 14.2K jobs indexed · 209 tests · 6 approval-gated agents · Rust 99% | [bagz](https://github.com/braylo777/bagz) |
 | **MCP LockGate (MLG)**: immutable quarantine for poisoned MCP tool graphs | 94% of 690 attacks caught · 0% false positives on 1,000 benign manifests · 100% Rust parity · 345 tests · p99 0.13 ms | [mcp-prod-gateway](https://github.com/braylo777/mcp-prod-gateway) |
 | **CarNimbus**: superagent for certified-used cars | 2.5K cars · 9.4K visits/mo · 10 agents · 151 tests | [carnimbus-us](https://github.com/braylo777/carnimbus-us) · [live](https://carnimbus.us) |
-| **Empirical AI Welfare (EAW)**: LLM pre-training "trauma" benchmark | 56% false-pass · 600K trials · 2 Qwen models | [eas-benchmark](https://github.com/braylo777/eas-benchmark) |
+| **Empirical AI Welfare (EAW)**: LLM pre-training "trauma" benchmark | 56% false-pass (CI 55.8–56.1%) · 25.2M trials · 11 models · 187 tests · 98% coverage | [eas-benchmark](https://github.com/braylo777/eas-benchmark) |
 | **Gaden**: closed-loop hunger control | 1.5 Hz AgRP peak · 92% stress pass · 12 tests | [gaden-health-demo](https://github.com/braylo777/gaden-health-demo) |
 
 ## Recent builds

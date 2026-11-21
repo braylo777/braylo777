@@ -8,7 +8,7 @@
 | **MCP LockGate (MLG)**: immutable quarantine for poisoned MCP tool graphs | 94% of 690 attacks caught · 0% false positives on 1,000 benign manifests · 100% Rust parity · 345 tests · p99 0.13 ms | [mcp-prod-gateway](https://github.com/braylo777/mcp-prod-gateway) |
 | **CarNimbus**: superagent for certified-used cars | 2.5K cars · 9.4K visits/mo · 10 agents · 151 tests | [carnimbus-us](https://github.com/braylo777/carnimbus-us) · [live](https://carnimbus.us) |
 | **Empirical AI Welfare (EAW)**: LLM pre-training "trauma" benchmark | 56% false-pass (CI 55.8–56.1%) · 25.2M trials · 11 models · 187 tests · 98% coverage | [eas-benchmark](https://github.com/braylo777/eas-benchmark) |
-| **Gaden**: closed-loop hunger control | 1.5 Hz AgRP peak · 92% stress pass · 12 tests | [gaden-health-demo](https://github.com/braylo777/gaden-health-demo) |
+| **Gaden**: closed-loop hunger control | 83% stress pass across 240 scenarios · 4 controllers (PID, MPC, bandit, open-loop) · fit RMSE 0.012 · 178 tests · 97% coverage | [gaden-health-demo](https://github.com/braylo777/gaden-health-demo) |
 
 ## Recent builds
 

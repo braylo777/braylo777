@@ -1,7 +1,5 @@
 # Brandon "Braylo" Lopez
 
-Full-stack AI engineer & safety researcher, Techstars alum. I help implement AI into small businesses. Founder of [Braylo SI](https://braylo.si).
-
 ## Featured
 
 | Project | Numbers | Repo |

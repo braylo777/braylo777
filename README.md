@@ -1,6 +1,16 @@
 # Brandon "Braylo" Lopez
 
-AI engineer: evals, RAG, and agents with human approval. Founder of [Braylo SI](https://braylo-si.pages.dev), AI implementation for small businesses.
+Full-stack AI engineer & safety researcher, Techstars alum. I help implement AI into small businesses. Founder of [Braylo SI](https://braylo.si).
+
+## Featured
+
+| Project | Numbers | Repo |
+| --- | --- | --- |
+| **Bagz**: ATS-compatible, swipe-to-apply job app | 14.2K jobs indexed · 209 tests · 6 approval-gated agents · Rust 99% | [bagz](https://github.com/braylo777/bagz) |
+| **MCP LockGate (MLG)**: immutable quarantine for poisoned MCP tool graphs | 94% of 690 attacks caught · 0% false positives on 1,000 benign manifests · 100% Rust parity · 345 tests · p99 0.13 ms | [mcp-prod-gateway](https://github.com/braylo777/mcp-prod-gateway) |
+| **CarNimbus**: superagent for certified-used cars | 2.5K cars · 9.4K visits/mo · 10 agents · 151 tests | [carnimbus-us](https://github.com/braylo777/carnimbus-us) · [live](https://carnimbus.us) |
+| **Empirical AI Welfare (EAW)**: LLM pre-training "trauma" benchmark | 56% false-pass · 600K trials · 2 Qwen models | [eas-benchmark](https://github.com/braylo777/eas-benchmark) |
+| **Gaden**: closed-loop hunger control | 1.5 Hz AgRP peak · 92% stress pass · 12 tests | [gaden-health-demo](https://github.com/braylo777/gaden-health-demo) |
 
 ## Recent builds
 

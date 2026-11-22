@@ -4,11 +4,11 @@
 
 | Project | Numbers | Repo |
 | --- | --- | --- |
-| **Bagz**: ATS-compatible, swipe-to-apply job app | 14.2K jobs indexed · 209 tests · 6 approval-gated agents · Rust 99% | [bagz](https://github.com/braylo777/bagz) |
-| **MCP LockGate (MLG)**: immutable quarantine for poisoned MCP tool graphs | 94% of 690 attacks caught · 0% false positives on 1,000 benign manifests · 100% Rust parity · 345 tests · p99 0.13 ms | [mcp-prod-gateway](https://github.com/braylo777/mcp-prod-gateway) |
-| **CarNimbus**: superagent for certified-used cars | 2.5K cars · 9.4K visits/mo · 10 agents · 151 tests | [carnimbus-us](https://github.com/braylo777/carnimbus-us) · [live](https://carnimbus.us) |
-| **Empirical AI Welfare (EAW)**: LLM pre-training "trauma" benchmark | 56% false-pass (CI 55.8–56.1%) · 25.2M trials · 11 models · 187 tests · 98% coverage | [eas-benchmark](https://github.com/braylo777/eas-benchmark) |
 | **Gaden**: closed-loop hunger control | 83% stress pass across 240 scenarios · 4 controllers (PID, MPC, bandit, open-loop) · fit RMSE 0.012 · 178 tests · 97% coverage | [gaden-health-demo](https://github.com/braylo777/gaden-health-demo) |
+| **Bagz**: ATS-compatible, swipe-to-apply job app | 14.2K jobs indexed · 209 tests · 6 approval-gated agents · Rust 99% | [bagz](https://github.com/braylo777/bagz) |
+| **NimBros**: agentic-native memecoin launchpad | 5+ launchpads · 35 coins live · $70M 24h volume tracked (snapshot 2026-11-21) · 3 agent interfaces (MCP, REST, C++ CLI) | [live](https://x-nimbros-si.pages.dev) |
+| **MCP LockGate (MLG)**: immutable quarantine for poisoned MCP tool graphs | 94% of 690 attacks caught · 0% false positives on 1,000 benign manifests · 100% Rust parity · 345 tests · p99 0.13 ms | [mcp-prod-gateway](https://github.com/braylo777/mcp-prod-gateway) |
+| **Empirical AI Welfare (EAW)**: LLM pre-training "trauma" benchmark | 56% false-pass (CI 55.8–56.1%) · 25.2M trials · 11 models · 187 tests · 98% coverage | [eas-benchmark](https://github.com/braylo777/eas-benchmark) |
 
 ## Recent builds
 

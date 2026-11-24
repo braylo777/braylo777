@@ -15,13 +15,15 @@ Founded 7 companies · [braylo.si](https://braylo.si): AI implementation for sma
 
 ## Featured
 
-| Project | Numbers | Links |
-| --- | --- | --- |
-| **Gaden**: closed-loop hunger control | 83% stress pass across 240 scenarios · 4 controllers (PID, MPC, bandit, open-loop) · fit RMSE 0.012 · 178 tests · 97% coverage | [gaden-health-demo](https://github.com/braylo777/gaden-health-demo) |
-| **NimBros**: agentic-native memecoin launchpad | 5+ launchpads · 35 coins live · $70M 24h volume tracked (snapshot 2026-11-21) · 3 agent interfaces (MCP, REST, C++ CLI) | [live](https://x-nimbros-si.pages.dev) |
-| **Nimbus Chain**: Agent-speed SI blockchain. | 150K–183K signed entries/s on 4 cores · 195 ns/op order matching · 8.4M ops/s across 16 markets · 3.8 KB light-client proof, verified in 1.1 ms · 120 Rust tests | [nimbus-chain](https://github.com/braylo777/nimbus-chain) |
-| **.dov pLang**: rewritten C/C++ for agentic immutability | Immutable by default · agents, not threads · emits C11 · 35 tests · 0 dependencies · Rust 95% | [dov-plang](https://github.com/braylo777/dov-plang) |
-| **Empirical AI Welfare (EAW)**: LLM pre-training "trauma" benchmark | 56% false-pass (CI 55.8–56.1%) · 25.2M trials · 11 models · 187 tests · 98% coverage | [eas-benchmark](https://github.com/braylo777/eas-benchmark) |
+Numbers dated 2026-11-24. Each comes from the repo's `results/metrics.json` or test runner.
+
+| Project | Numbers (2026-11-24) | Demo | Paper / Docs | CI |
+| --- | --- | --- | --- | --- |
+| **Gaden**: closed-loop hunger control (simulation, not a medical device) | Best controller (PID) passes 86.8% of 1,000 stress scenarios (95% Wilson CI 84.6–88.7%) · 496 tests · 97.6% coverage | [live](https://gaden-demo.braylo777.workers.dev) · [repo](https://github.com/braylo777/gaden-health-demo) | [How Gaden works](https://github.com/braylo777/gaden-health-demo/blob/main/docs/HOW-GADEN-WORKS.md) | [![CI](https://github.com/braylo777/gaden-health-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/braylo777/gaden-health-demo/actions/workflows/ci.yml) |
+| **NimBros**: agentic-native memecoin launchpad | 653 Node tests + 45 Rust tests · 3 agent interfaces (MCP, REST, C++ CLI) | [live](https://x-nimbros-si.pages.dev) · [repo](https://github.com/braylo777/nimbros) | [Architecture](https://github.com/braylo777/nimbros/blob/main/docs/ARCHITECTURE.md) | [![CI](https://github.com/braylo777/nimbros/actions/workflows/ci.yml/badge.svg)](https://github.com/braylo777/nimbros/actions/workflows/ci.yml) |
+| **Nimbus Chain**: Agent-speed SI blockchain | 207K signed entries/s (M2 Pro) · 1.92 KB proof verified in 0.46 ms · 309 tests · 4 fuzz targets, 0 crashes (30 min each) | [live](https://nimbus-verifier.pages.dev) · [repo](https://github.com/braylo777/nimbus-chain) | [17-page dissertation](https://github.com/braylo777/nimbus-chain/blob/main/docs/dissertation/nimbus-dissertation.pdf) | [![CI](https://github.com/braylo777/nimbus-chain/actions/workflows/ci.yml/badge.svg)](https://github.com/braylo777/nimbus-chain/actions/workflows/ci.yml) |
+| **.dov pLang**: rewritten C/C++ for agentic immutability | 383 tests · 93.8% coverage · 12 examples · 0 dependencies · emits C11 | [playground](https://dov-playground.pages.dev) · [repo](https://github.com/braylo777/dov-plang) | [Architecture](https://github.com/braylo777/dov-plang/blob/main/docs/ARCHITECTURE.md) | [![CI](https://github.com/braylo777/dov-plang/actions/workflows/ci.yml/badge.svg)](https://github.com/braylo777/dov-plang/actions/workflows/ci.yml) |
+| **Empirical AI Welfare (EAW)**: behavioral stress benchmark for LLMs | 58.7% false-pass under pressure (95% CI 57.7–59.8%) over 55,080 real model runs · 25.2M simulated trials (simulation, labelled) · 383 tests | [dashboard](https://eaw-results.pages.dev) · [repo](https://github.com/braylo777/eas-benchmark) | [EAW paper](https://github.com/braylo777/eas-benchmark/blob/main/docs/EAW-paper.pdf) | [![CI](https://github.com/braylo777/eas-benchmark/actions/workflows/ci.yml/badge.svg)](https://github.com/braylo777/eas-benchmark/actions/workflows/ci.yml) |
 
 ## New: Forward Deployed Engineering, 12 stages (2026-11-24)
 

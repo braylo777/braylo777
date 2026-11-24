@@ -19,7 +19,7 @@ Founded 7 companies · [braylo.si](https://braylo.si): AI implementation for sma
 | --- | --- | --- |
 | **Gaden**: closed-loop hunger control | 83% stress pass across 240 scenarios · 4 controllers (PID, MPC, bandit, open-loop) · fit RMSE 0.012 · 178 tests · 97% coverage | [gaden-health-demo](https://github.com/braylo777/gaden-health-demo) |
 | **NimBros**: agentic-native memecoin launchpad | 5+ launchpads · 35 coins live · $70M 24h volume tracked (snapshot 2026-11-21) · 3 agent interfaces (MCP, REST, C++ CLI) | [live](https://x-nimbros-si.pages.dev) |
-| **Nimbus Chain**: Agent-speed super DEX. | 150K–183K signed entries/s on 4 cores · 195 ns/op order matching · 8.4M ops/s across 16 markets · 3.8 KB light-client proof, verified in 1.1 ms · 120 Rust tests | [nimbus-chain](https://github.com/braylo777/nimbus-chain) |
+| **Nimbus Chain**: Agent-speed SI blockchain. | 150K–183K signed entries/s on 4 cores · 195 ns/op order matching · 8.4M ops/s across 16 markets · 3.8 KB light-client proof, verified in 1.1 ms · 120 Rust tests | [nimbus-chain](https://github.com/braylo777/nimbus-chain) |
 | **.dov pLang**: rewritten C/C++ for agentic immutability | Immutable by default · agents, not threads · emits C11 · 35 tests · 0 dependencies · Rust 95% | [dov-plang](https://github.com/braylo777/dov-plang) |
 | **Empirical AI Welfare (EAW)**: LLM pre-training "trauma" benchmark | 56% false-pass (CI 55.8–56.1%) · 25.2M trials · 11 models · 187 tests · 98% coverage | [eas-benchmark](https://github.com/braylo777/eas-benchmark) |
 
